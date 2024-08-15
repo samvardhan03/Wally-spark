@@ -49,7 +49,7 @@ auth.js: Contains authentication configuration and secrets.
 app.py sets up a Flask server to handle requests for AI predictions and training.
 
 2.Models:
-forecast.py, promotions.py, warehouse.py: Contain model definitions and prediction functions.
+forecast.py, promotions.py, warehouse.py: Contain model definitions and prediction functions using facebook prohet, random forest classifiers, time series analysis
 train.py: Contains training routines for the AI models.
 predict.py: Contains prediction routines using the trained models.
 
